@@ -1,0 +1,6 @@
+#!/bin/sh
+# WAZUH-THEHIVE WRAPPER
+W_PYTHON="/var/ossec/framework/python/bin/python3"
+SCRIPT="/var/ossec/integrations/custom-w2thive.py"
+
+$W_PYTHON $SCRIPT "$@"
